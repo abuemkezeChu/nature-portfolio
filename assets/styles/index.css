@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Raleway, sans-serif;
+}
+
+.side-nav {
+  width: 300px;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.nav-container {
+  padding: 0 15px 16px;
+  margin-top: 20px;
+}
+
+.nav-container > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.nav-container > h4 {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-container > p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  padding: 8px 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #c5c3c3;
+}
+
+.link:first-child {
+  color: #009688;
+}
+
+.link:first-child:hover {
+  color: #000;
+}
+
+.link > i {
+  margin-right: 10px;
+}
+
+.socials {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.socials > i:first-child {
+  margin: 0 0  0 16px;
+}
+
+.socials > i:hover {
+  opacity: 0.5;
+}
