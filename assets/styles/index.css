@@ -78,6 +78,10 @@ body {
   padding: 5px 0;
 }
 
+.filter > button i {
+  margin-right: 16px;
+}
+
 .socials > i:first-child {
   margin: 0 0  0 16px;
 }
@@ -90,7 +94,7 @@ body {
   width: 100%;
 }
 
-.header{
+.header {
   padding: 16px;
 }
 
@@ -120,10 +124,6 @@ body {
 
 .filter > button:hover {
   background-color: #ccc;
-}
-
-.filter > button i {
-  margin-right: 16px;
 }
 
 .filter > .all {
