@@ -85,3 +85,48 @@ body {
 .socials > i:hover {
   opacity: 0.5;
 }
+
+.container {
+  width: 100%;
+}
+
+.header{
+  padding: 16px;
+}
+
+.header > h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.filter {
+  margin-top: 20px;
+  padding: 16px 0;
+  border-bottom: 5px solid #ccc;
+}
+
+.filter > span {
+  font-size: 15px;
+  margin-right: 16px;
+}
+
+.filter > button {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px;
+  border: 0;
+  background-color: #fff;
+}
+
+.filter > button:hover {
+  background-color: #ccc;
+}
+
+.filter > button i {
+  margin-right: 16px;
+}
+
+.filter > .all {
+  color: #fff;
+  background-color: #000;
+}
