@@ -15,6 +15,7 @@ body {
   width: 300px;
   height: 100vh;
   background-color: #fff;
+  position: fixed;
 }
 
 .main-container {
@@ -92,6 +93,7 @@ body {
 
 .container {
   width: 100%;
+  margin: 0 300px;
 }
 
 .header {
@@ -129,4 +131,32 @@ body {
 .filter > .all {
   color: #fff;
   background-color: #000;
+}
+
+.cards {
+  padding: 0 10px;
+}
+
+.card {
+  width: 423px;
+  height: 407px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.card > img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.card > h3,
+.card > p {
+  margin: 10px;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.cards-row-1 {
+  display: flex;
+  justify-content: space-evenly;
 }
