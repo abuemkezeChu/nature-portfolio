@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Raleway, sans-serif;
+}
+
+.side-nav {
+  width: 300px;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+}
+
+.main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.nav-container {
+  padding: 0 15px 16px;
+  margin-top: 20px;
+}
+
+.nav-container > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.nav-container > h4 {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-container > p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  padding: 8px 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #c5c3c3;
+}
+
+.link:first-child {
+  color: #009688;
+}
+
+.link:first-child:hover {
+  color: #000;
+}
+
+.link > i {
+  margin-right: 10px;
+}
+
+.socials {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.filter > button i {
+  margin-right: 16px;
+}
+
+.socials > i:first-child {
+  margin: 0 0  0 16px;
+}
+
+.socials > i:hover {
+  opacity: 0.5;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 300px;
+}
+
+.header {
+  padding: 16px;
+}
+
+.header > h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.filter {
+  margin-top: 20px;
+  padding: 16px 0;
+  border-bottom: 5px solid #ccc;
+}
+
+.filter > span {
+  font-size: 15px;
+  margin-right: 16px;
+}
+
+.filter > button {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px;
+  border: 0;
+  background-color: #fff;
+}
+
+.filter > button:hover {
+  background-color: #ccc;
+}
+
+.filter > .all {
+  color: #fff;
+  background-color: #000;
+}
+
+.cards {
+  padding: 0 10px;
+}
+
+.card {
+  width: 423px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.card > img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.card > h3,
+.card > p {
+  margin: 10px;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.cards-row-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.carrousel {
+  padding: 32px 0;
+}
+
+.links {
+  width: max-content;
+  margin: 0 auto;
+  letter-spacing: -3px;
+}
+
+.links a {
+  padding: 8px 16px;
+}
+
+.links > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.links > a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.links > a:nth-child(2) {
+  background-color: #000;
+  color: #fff;
+}
